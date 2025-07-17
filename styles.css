@@ -2,8 +2,6 @@
 
 body{
   font-family: lato, sans-serif;
-  max-width: 1920px;
-  margin: 0 auto;
 }
 /* shared styles */
 .description{
@@ -19,9 +17,10 @@ body{
   background-color: #E55473;
   padding: 20px 43px;
   color: white;
-  font-size: 1.25px;
+  font-size: 1.25rem;
   font-weight: bold;
   border-radius: 8px;
+  border: none;
 }
 .bg-pink{
   background-color: rgba(229, 84, 115, 0.10);
@@ -29,8 +28,25 @@ body{
 .bg-gray{
   background-color: rgba(39, 39, 39, 0.05);
 }
+.display-flex{
+  display: flex;
+}
 
 /* header styles */
-header{
-  background-color: rgba(229, 84, 115, 0.10);
+.banner{
+    max-width: 1920px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 97px;
+    padding: 50px 240px 0 240px;
+    margin-bottom: 178px;
+}
+.banner .left{
+  margin-bottom: 32px;
+  max-width: 708px;
+}
+.banner .left h1{
+  color: #272727;
+  font-size: 5rem;
+  font-weight: 900;
 }
