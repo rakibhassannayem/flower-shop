@@ -138,6 +138,29 @@ main{
   font-weight: 600;
   color: rgba(39, 39, 39, 0.80);
 }
+
+/* sale styling */
+/* Question1: how can i take the full width */
+.sale-container{
+  align-items: center;
+  justify-content: center;
+  gap: 186px;
+  background-color: rgba(229, 84, 115, 0.05);
+  border-radius: 8px;
+  padding: 100px;
+  margin-bottom: 128px;
+}
+.sale-container .sale-content{
+  flex-direction: column;
+  align-items: center;
+}
+.sale-container .sale-content span{
+  color: #E55473;
+}
+.sale-container .sale-content p{
+  max-width: 594px;
+  text-align: center;
+}
 /* responsive */
 @media screen and (max-width: 576px) {
   .banner{
