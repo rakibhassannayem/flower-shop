@@ -54,13 +54,10 @@ body{
 
 /* main section starts here */
 
-main{
-  width: 1920px;
-  margin: 0 auto;
-}
-
 /* featured flowers */
 .featured-flowers{
+  max-width: 1920px;
+  margin: 0 auto;
   margin-bottom: 128px;
   display: flex;
   flex-direction: column;
@@ -113,15 +110,19 @@ main{
 }
 
 /* support styles */
+
 .support-container{
+  max-width: 1920px;
+  margin: 0 auto;
   background-color: rgba(39, 39, 39, 0.05);
   padding: 85px 175px;
   border-radius: 8px;
   margin-bottom: 128px;
+  
 }
 .support-container .support{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .support-container .support .icons{
   display: flex;
@@ -140,7 +141,6 @@ main{
 }
 
 /* sale styling */
-/* Question1: how can i take the full width */
 .sale-container{
   align-items: center;
   justify-content: center;
@@ -161,13 +161,88 @@ main{
   max-width: 594px;
   text-align: center;
 }
+
+/* instageam container styling */
+.instagram-container{
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 128px;
+}
+.instagram-container h2{
+  margin: 0;
+  margin-bottom: 24px;
+}
+.instagram-container p{
+  max-width: 594px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 48px;
+}
+.instagram-container .img-container{
+  gap: 24px
+}
+
+/* subscribe styling */
+
+.subscribe-container{
+  background-image: url(./images/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  padding-top: 121px;
+  padding-bottom: 121px;
+  margin-bottom: 128px;
+}
+.mail{
+  gap: 16px;
+}
+.mail input{
+  width: 709px;
+  padding: 23px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* footer styles */
+footer{
+  background-color: black ;
+  color: white;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.foot{
+  flex-direction: column;
+  align-items: center;
+}
+footer h2{
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+footer h2 span{
+  color: #E55473;
+}
+footer .p1{
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.13rem;
+  max-width: 625px;
+  text-align: center;
+  margin-top: 25px;
+}
+footer .p2{
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1rem;
+  margin-top: 32px;
+}
 /* responsive */
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   .banner{
     flex-direction: column;
     justify-content: space-between;
   }
-}
+} */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   
 }
