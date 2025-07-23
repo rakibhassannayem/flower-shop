@@ -1,104 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flower Shop</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="bg-pink">
-    <div class="banner display-flex">
-      <div class="left">
-        <h1>Let's make beautiful flowers a part of your life.</h1>
-        <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
-        <button class="btn-primary">Shop Now</button>
-      </div>
-      <div class="right">
-        <img src="./images/banner.png" alt="">
-      </div>
-    </div>
-  </header>
-  <main>
-    <section class="featured-flowers">
-      <div class="contents">
-        <h2 class="section-title">Our Featured Flowers</h2>
-        <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-      </div>
-      <div class="featured-flowers-container">
-        <div class="featured-flowers-subContainer">
-          <div class="featured-flower-1">
-            <img src="./images/featured1.png" alt="">
-          </div>
-          <a href="">Pink Flower Tree</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="bg-pink">
+      <div class="banner container display-flex">
+        <div class="left">
+          <h1>Let's make<br />beautiful flowers a<br />part of your life.</h1>
+          <p class="description">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters.
+          </p>
+          <button class="btn-primary">Shop Now</button>
         </div>
-        <div class="featured-flowers-subContainer">
-          <div class="featured-flower-2">
-            <img src="./images/featured2.png" alt="">
-          </div>
-          <a href="">Pink Flower Tree</a>
-        </div>
-        <div class="featured-flowers-subContainer">
-          <div class="featured-flower-3">
-            <img src="./images/featured3.png" alt="">
-          </div>
-          <a href="">Pink Flower Tree</a>
+        <div class="right">
+          <img src="./images/banner.png" alt="" />
         </div>
       </div>
-    </section>
+    </header>
 
-    <section class="support-container">
-      <div class="support">
-        <div class="icons">
-          <img src="./images/icon1.png" alt="">
-          <a href="">Same Day Delivery. Click & Collect</a></div>
-        <div class="icons">
-          <img src="./images/icon2.png" alt="">
-          <a href="">Fresh Flowers. Local Growers.</a></div>
-        <div class="icons">
-          <img src="./images/icon3.png" alt="">
+    <main>
+      <section class="featured-flowers container display-flex">
+        <div class="contents">
+          <h2 class="section-title">Our Featured Flowers</h2>
+          <p class="description">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </div>
+        <div class="featured-flowers-container display-flex">
+          <div class="featured-flowers-subContainer">
+            <div class="flower-bg">
+              <img src="./images/featured1.png" alt="" />
+            </div>
+            <a href="">Pink Flower Tree</a>
+          </div>
+          <div class="featured-flowers-subContainer">
+            <div class="flower-bg two">
+              <img src="./images/featured2.png" alt="" />
+            </div>
+            <a href="">Pink Flower Tree</a>
+          </div>
+          <div class="featured-flowers-subContainer">
+            <div class="flower-bg three">
+              <img src="./images/featured3.png" alt="" />
+            </div>
+            <a href="">Pink Flower Tree</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="support container display-flex">
+        <div class="icons display-flex">
+          <img src="./images/icon1.png" alt="" />
+          <a href="">Same Day Delivery. Click & Collect</a>
+        </div>
+        <div class="icons display-flex">
+          <img src="./images/icon2.png" alt="" />
+          <a href="">Fresh Flowers. Local Growers.</a>
+        </div>
+        <div class="icons display-flex">
+          <img src="./images/icon3.png" alt="" />
           <a href="">24/7 Free Support.</a>
         </div>
-      </div>
-    </section>
-    
-    <section class="sale-container display-flex">
-      <div class="sale-content display-flex">
-        <h2 class="section-title">Hot Deal ! Sale Up to 25% <span>Off</span></h2>
-        <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-        <button class="btn-primary">Sign Up</button>
-      </div>
-      <div>
-        <img src="./images/sale.png" alt="">
-      </div>
-    </section>
-    
-    <section class="instagram-container display-flex">
-      <h2 class="section-title">Instagram</h2>
-      <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-      <div class="img-container display-flex">
-        <div class="images"><img src="./images/insta1.png" alt=""></div>
-        <div class="images"><img src="./images/insta2.png" alt=""></div>
-        <div class="images"><img src="./images/insta3.png" alt=""></div>
-        <div class="images"><img src="./images/insta4.png" alt=""></div>
-      </div>
-    </section>
+      </section>
 
-    <section class="subscribe-container display-flex">
-      <h1 class="section-title">Get The Latest Deals</h1>
-      <p class="description">$30 coupon for first shopping</p>
-      <div class="mail display-flex">
-        <input type="email" name="" id="" placeholder="Enter your mail here....">
-        <button class="btn-primary">Subscribe</button>
+      <section class="sale-container display-flex">
+        <div class="sale-left display-flex">
+          <h2 class="section-title">
+            Hot Deal ! Sale Up to 25% <span>Off</span>
+          </h2>
+          <p class="description">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+          <button class="btn-primary">Sign Up</button>
+        </div>
+        <div>
+          <img src="./images/sale.png" alt="" />
+        </div>
+      </section>
+
+      <section class="instagram container display-flex">
+        <h2 class="section-title">Instagram</h2>
+        <p class="description">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
+        <div class="img-container container display-flex">
+          <div class="images">
+            <img src="./images/insta1.png" alt="" />
+          </div>
+          <div class="images">
+            <img src="./images/insta2.png" alt="" />
+          </div>
+          <div class="images">
+            <img src="./images/insta3.png" alt="" />
+          </div>
+          <div class="images">
+            <img src="./images/insta4.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="subscribe container display-flex">
+        <h1 class="section-title">Get The Latest Deals</h1>
+        <p class="description">$30 coupon for first shopping</p>
+        <div class="mail display-flex">
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="Enter your mail here...."
+          />
+          <button class="btn-primary">Subscribe</button>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="foot display-flex">
+        <h2><span>Flower</span>Shop</h2>
+        <p class="p1">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
+        <p class="p2">@2020-2023, FlowerShop.com. All rights reserved.</p>
       </div>
-    </section>
-  </main>
-  <footer>
-    <div class="foot display-flex">
-      <h2><span>Flower</span>Shop</h2>
-      <p class="p1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-      <p class="p2">@2020-2023, FlowerShop.com. All rights reserved.</p>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
